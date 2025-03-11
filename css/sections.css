@@ -1,0 +1,117 @@
+section {
+  max-width: 100%;
+}
+/*NYTT OM FOLK*/
+
+.fri-nytt-om-folk {
+  border-top: 3px solid var(--white);
+  border-bottom: 3px solid var(--white);
+  padding: 20px 0;
+  position: relative;
+}
+
+.fri-nytt-om-folk-heading {
+  background-color: var(--beige);
+  padding: 0 20px;
+  margin: 0;
+  font-size: 1.5rem;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+/*FRI-SEKSJONER*/
+
+.fri-one-col,
+.fri-two-col,
+.fri-three-col {
+  display: grid;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.fri-one-col {
+  grid-template-columns: 1fr;
+}
+
+.fri-two-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.fri-three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 650px) {
+  .fri-one-col,
+  .fri-three-col {
+    grid-template-columns: 1fr;
+  }
+
+  .fri-three-col .fri-news-element {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fri-three-col .fri-news-element .fri-img-element {
+    width: 50%;
+    height: 100%;
+  }
+  .fri-three-col .fri-news-element .fri-title-element h1 {
+    font-size: 1.2rem;
+  }
+
+  .fri-one-col .fri-news-element {
+    flex-direction: column !important;
+  }
+
+  .meninger-noimg {
+    flex-direction: column !important;
+  }
+
+  .fri-reportage .fri-title-element {
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
+
+  .fri-one-col .fri-reportage .fri-title-element {
+    width: 100%;
+    margin-top: 0;
+    padding: 0 25px;
+    height: 100% !important;
+  }
+
+  .fri-one-col .fri-reportage .fri-img-element {
+    width: 100% !important;
+    max-height: 500px;
+    height: 500px;
+  }
+
+  .fri-three-col .fri-rorsla .fri-title-element h4 {
+    font-size: 0.8rem;
+  }
+
+  .fri-three-col .fri-rorsla .fri-title-element h4 img {
+    height: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .fri-two-col {
+    grid-template-columns: 1fr;
+  }
+  .fri-two-col .fri-news-element .fri-img-element {
+    max-height: 200px;
+  }
+  .fri-two-col .fri-news-element .fri-title-element h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .toppsak .fri-title-element h1 {
+    font-size: 1.5rem !important;
+  }
+}
