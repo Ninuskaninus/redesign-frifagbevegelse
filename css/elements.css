@@ -1,0 +1,233 @@
+.fri-news-element {
+  background-color: #ffffffb3;
+  box-shadow: var(--box-shadow);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.fri-news-element:hover {
+  background-color: var(--white);
+  h1 {
+    text-decoration: underline;
+  }
+}
+
+.fri-img-element {
+  width: 100%;
+  height: auto;
+}
+
+.fri-title-element {
+  padding: 15px;
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fri-title-element h1 {
+  font-size: 1.5rem;
+  flex-grow: 0;
+}
+
+.fri-title-element h4 {
+  font-size: 1rem;
+  margin: 10px 0;
+  font-weight: 400;
+  flex-grow: 0;
+}
+
+/*TOPPSAK*/
+.toppsak .fri-news-element {
+  display: flex;
+  flex-direction: column;
+}
+
+.toppsak .fri-img-element {
+  width: 100%;
+  max-height: 500px;
+}
+
+.toppsak .fri-title-element h1 {
+  font-size: 3.5rem;
+}
+
+/*EN-SPALTE*/
+.fri-one-col .fri-news-element {
+  display: flex;
+  flex-direction: row;
+}
+
+.fri-one-col .fri-img-element {
+  max-height: 200px;
+}
+
+.fri-one-col .fri-title-element h1 {
+  font-size: 2rem;
+}
+
+/*TO-SPALTE*/
+
+.fri-two-col .fri-title-element h1 {
+  font-size: 2rem;
+}
+
+/*TRE-SPALTE*/
+
+.fri-three-col .fri-title-element h1 {
+  font-size: 1.5rem;
+}
+
+/*FULLBREDDE U/BILDE*/
+
+.fri-one-col-noimg .fri-title-element h1 {
+  font-size: 2rem;
+}
+
+/*DETAILS*/
+
+.dark {
+  background-color: var(--black);
+  color: white !important;
+}
+
+.dark:hover {
+  background-color: var(--black);
+}
+
+.dark h4 {
+  color: var(--orange);
+}
+
+.orange {
+  border-left: 7px solid var(--orange);
+}
+
+/*MENINGER*/
+
+.fri-meninger h1 {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fri-meninger h4 {
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 800;
+}
+
+.fri-meninger span,
+small {
+  color: var(--darkgray);
+  font-weight: 400;
+}
+
+/*MENINGER U BILDE*/
+
+.fri-byline-element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+  background-color: var(--white);
+}
+
+.fri-byline-element img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.meninger-noimg {
+  background-color: var(--debattblue);
+}
+
+.meninger-noimg:hover {
+  background-color: var(--debattblue);
+}
+
+.meninger-noimg h1 {
+  padding: 30px 0;
+}
+
+/*RØRSLA*/
+.fri-rorsla .fri-title-element h4 img {
+  height: 1rem;
+}
+
+.fri-rorsla .fri-title-element h4 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.fri-rorsla span,
+small {
+  color: var(--darkgray);
+  font-weight: 400;
+}
+
+/*REPOTAGE*/
+.fri-reportage {
+  background-color: transparent;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fri-reportage:hover {
+  background-color: transparent;
+}
+
+.fri-reportage .fri-title-element {
+  width: 95%;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  margin-top: -25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fri-reportage h4 {
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 800;
+}
+
+.fri-reportage span,
+small {
+  color: var(--darkgray);
+  font-weight: 400;
+}
+
+.fri-one-col .fri-reportage {
+  flex-direction: row-reverse;
+}
+
+.fri-one-col .fri-reportage .fri-title-element {
+  width: 40%;
+  margin-top: 0;
+  padding: 0 25px;
+}
+
+.fri-one-col .fri-reportage .fri-img-element {
+  width: 60%;
+  max-height: 500px;
+  height: 500px;
+}
+
+.fri-reportage {
+  text-align: center;
+}
