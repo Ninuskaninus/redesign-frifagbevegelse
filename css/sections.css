@@ -8,6 +8,7 @@ section {
   border-bottom: 3px solid var(--white);
   padding: 20px 0;
   position: relative;
+  margin: 20px 0;
 }
 
 .fri-nytt-om-folk-heading {
