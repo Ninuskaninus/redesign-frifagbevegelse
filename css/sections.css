@@ -22,6 +22,8 @@ section {
   position: absolute;
 }
 
+/*WORK CAROUSEL*/
+
 /*FRI-SEKSJONER*/
 
 .fri-one-col,
@@ -104,15 +106,18 @@ section {
     grid-template-columns: 1fr;
   }
   .fri-two-col .fri-news-element .fri-img-element {
-    max-height: 200px;
+    max-width: 150px;
   }
   .fri-two-col .fri-news-element .fri-title-element h1 {
     font-size: 1.5rem;
   }
+  .fri-two-col .fri-news-element {
+    flex-direction: row;
+  }
+  .toppsak .fri-title-element h1 {
+    font-size: 2rem !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
-  .toppsak .fri-title-element h1 {
-    font-size: 1.5rem !important;
-  }
 }

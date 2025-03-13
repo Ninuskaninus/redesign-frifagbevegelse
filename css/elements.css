@@ -129,6 +129,21 @@ small {
   font-weight: 400;
 }
 
+.opinions-btn {
+  background-color: var(--blue);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  color: var(--white);
+}
+
+.opinions-btn:hover {
+  background-color: var(--blue);
+}
+
 /*MENINGER U BILDE*/
 
 .fri-byline-element {
@@ -173,6 +188,59 @@ small {
 small {
   color: var(--darkgray);
   font-weight: 400;
+}
+
+.rorsla-element {
+  box-shadow: none;
+  height: 318px;
+  background-color: var(--rorslared);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.rorsla-element:hover {
+  background-color: transparent;
+  background-color: var(--rorslared);
+}
+
+.rorsla-element img {
+  margin-bottom: 20px;
+}
+
+.rorsla-btn {
+  background-color: var(--beige);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  color: var(--rorslared);
+  z-index: 1;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.rorsla-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: var(--beige);
+  position: absolute;
+  bottom: 10px;
+}
+
+.rorsla-icons div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rorsla-icons img {
+  margin-bottom: 0;
 }
 
 /*REPOTAGE*/
@@ -230,4 +298,17 @@ small {
 
 .fri-reportage {
   text-align: center;
+}
+
+/*VIDEOCONTAINER*/
+
+.fri-video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fri-video-container img {
+  width: 100%;
+  height: auto;
 }

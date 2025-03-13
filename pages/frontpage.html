@@ -169,7 +169,10 @@
         </ul>
       </div>
       <div class="hamburgerElement dropdownElement">
-        <button id="redaksjonerMobBtn">REDAKSJONER</button>
+        <button id="redaksjonerMobBtn">
+          <h4>REDAKSJONER</h4>
+          <img src="/images/trekant.png" alt="" />
+        </button>
         <div class="hamburgerRedaksjonerMob" id="redaksjonerMobElement">
           <ul>
             <li><a href="">Arbeidsmanden</a></li>
@@ -189,6 +192,14 @@
       </div>
     </section>
     <main>
+      <section class="fri-one-col">
+        <a class="fri-news-element orange" id="sak0">
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+      </section>
       <section class="toppsak">
         <a class="fri-news-element" id="sak1">
           <img class="fri-img-element" src="/images/placeholder.png" alt="" />
@@ -223,15 +234,19 @@
           </div>
         </a>
       </section>
-      <section class="fri-two-col">
-        <div class="fri-news-element">Jobbkarusell</div>
-        <a class="fri-news-element" id="sak5">
-          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
-          <div class="fri-title-element">
-            <h4>Stikktittel</h4>
-            <h1>Tittel</h1>
+      <section class="fri-work-carousel">
+        <div class="fri-work-carousel-container">
+          <div class="fri-work-carousel-heading">
+            <img src="/images/FrifagJobb - sort.png" alt="" />
+            <p>Nå: <span id="workNumber">0</span> stillingsannonser</p>
           </div>
-        </a>
+          <div class="swiper fri-work-carousel" id="swiper2">
+            <div class="swiper-wrapper fri-work-carousel-wrapper"></div>
+            <div class="swiper-button-prev fri-work-carousel-prev"></div>
+            <div class="swiper-button-next fri-work-carousel-next"></div>
+            <div class="swiper-pagination fri-work-carousel-pagination"></div>
+          </div>
+        </div>
       </section>
       <section class="fri-one-col">
         <a class="fri-news-element" id="sak6">
@@ -243,7 +258,7 @@
         </a>
       </section>
       <section class="fri-video-container">
-        <div class="fri-news-element">Videokarusell</div>
+        <img src="/images/image.png" alt="" />
       </section>
       <section class="fri-one-col">
         <a class="fri-news-element" id="sak7">
@@ -255,11 +270,23 @@
         </a>
       </section>
       <section class="fri-rorsla-container">
-        <div class="fri-news-element">Rørsla container</div>
+        <div class="fri-news-element rorsla-element">
+          <img src="/images/rorsla-beige.png" alt="" />
+          <a href="" class="rorsla-btn">Hør siste episode her</a>
+          <div class="rorsla-icons">
+            <p>Tilgjengelig på flere plattformer</p>
+            <div>
+              <a href=""><img src="/images/appemusic.png" alt="" /></a>
+              <a href=""><img src="/images/spotify.png" alt="" /></a>
+              <a href=""><img src="/images/podimo.png" alt="" /></a>
+              <a href=""><img src="/images/podme.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="fri-newsletter-container">
+      <!--       <section class="fri-newsletter-container">
         <div class="fri-news-element">Nyhetsbrev</div>
-      </section>
+      </section> -->
       <section class="fri-two-col">
         <a class="fri-news-element" id="sak8">
           <img class="fri-img-element" src="/images/placeholder.png" alt="" />
@@ -312,8 +339,11 @@
           </div>
         </a>
       </section>
-      <section class="fri-one-col">
-        <div class="fri-news-element">Debatt</div>
+      <section>
+        <a class="fri-news-element opinions-btn">
+          <p>Flere meninger</p>
+          <img src="/images/arrow-right.png" alt="" />
+        </a>
       </section>
       <section class="fri-three-col">
         <a class="fri-news-element" id="sak12">
@@ -608,4 +638,5 @@
   </body>
   <script src="/js/hamburgerHandler.js"></script>
   <script src="/js/newsfront.js"></script>
+  <script src="/js/jobsAPI.js"></script>
 </html>

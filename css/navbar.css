@@ -160,7 +160,7 @@ nav img {
 .hamburgerElementContainerMobile {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 10px;
+  padding: 20px;
   display: none;
   max-width: 660px;
 }
@@ -171,6 +171,14 @@ nav img {
 
 .hamburgerDropdownActive {
   display: grid;
+}
+
+#redaksjonerMobBtn {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 @media screen and (max-width: 950px) {

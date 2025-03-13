@@ -68,12 +68,6 @@ sak4.querySelector("img").src = saker[3].bilde;
 sak4.querySelector("h1").textContent = saker[3].tittel;
 sak4.querySelector("h4").textContent = saker[3].stikktittel;
 
-const sak5 = document.querySelector("#sak5");
-sak5.href = saker[4].url;
-sak5.querySelector("img").src = saker[4].bilde;
-sak5.querySelector("h1").textContent = saker[4].tittel;
-sak5.querySelector("h4").textContent = saker[4].stikktittel;
-
 const sak6 = document.querySelector("#sak6");
 sak6.href = saker[0].url;
 sak6.querySelector("img").src = saker[0].bilde;
@@ -265,6 +259,11 @@ const sak38 = document.querySelector("#sak38");
 sak38.querySelector("img").src = saker[1].bilde;
 sak38.querySelector("h1").textContent = saker[1].tittel;
 sak38.querySelector("h4").textContent = saker[1].stikktittel;
+
+const sak0 = document.querySelector("#sak0");
+sak0.href = saker[0].url;
+sak0.querySelector("h1").textContent = saker[0].tittel;
+sak0.querySelector("h4").textContent = saker[0].stikktittel;
 
 const list1 = document.querySelector("#list1");
 for (let i = 0; i < saker.length; i++) {
