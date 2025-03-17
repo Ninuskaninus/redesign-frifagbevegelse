@@ -27,10 +27,7 @@ async function getJobList() {
   const workNumber = document.querySelector("#workNumber");
   workNumber.textContent = jobLists.length;
 
-  console.log(jobLists);
-
   const workWrapper = document.querySelector(".fri-work-carousel-wrapper");
-
   const workElements = jobLists.map((job) => {
     return `
       <a href="${job.link}" target="_blank" class="swiper-slide fri-work-slide">
@@ -45,26 +42,24 @@ async function getJobList() {
   });
 
   const yourAdHere = `
-            <div class="swiper-slide fri-work-carousel-end">
-                <h1>DIN ANNONSE HER</h1>
-                <p>Ønsker du å annonsere en ledig stilling?</p>
-                <p>Send mail til: <a>mail@mail.no</a></p>
-              </div>
+    <div class="swiper-slide fri-work-carousel-end">
+      <h1>DIN ANNONSE HER</h1>
+      <p>Ønsker du å annonsere en ledig stilling?</p>
+      <p>Send mail til: <a>mail@mail.no</a></p>
+    </div>
   `;
   workElements.push(yourAdHere);
 
   const allAds = `
-  <div class="swiper-slide fri-work-carousel-end-all">
-  <a href="https://jobb.frifagbevegelse.no/" target="_blank">Se alle annonser</a>
-  <img src="/images/arrow-right-orange.png">
-  </div>
+    <div class="swiper-slide fri-work-carousel-end-all">
+      <a href="https://jobb.frifagbevegelse.no/" target="_blank">Se alle annonser</a>
+      <img src="/images/arrow-right-orange.png">
+    </div>
   `;
 
   workElements.push(allAds);
 
   workWrapper.innerHTML = workElements.join("");
-  console.log(workWrapper);
-
   new Swiper("#swiper2", {
     slidesPerView: 2,
     slidesPerGroup: 2,
