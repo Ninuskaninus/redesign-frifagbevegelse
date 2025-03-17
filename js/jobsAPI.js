@@ -45,7 +45,7 @@ async function getJobList() {
     <div class="swiper-slide fri-work-carousel-end">
       <h1>DIN ANNONSE HER</h1>
       <p>Ønsker du å annonsere en ledig stilling?</p>
-      <p>Send mail til: <a>mail@mail.no</a></p>
+      <p><a href="https://jobb.frifagbevegelse.no/bestilling-og-priser/" target="_blank">Klikk her!</a></p>
     </div>
   `;
   workElements.push(yourAdHere);
