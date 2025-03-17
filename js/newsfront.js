@@ -260,11 +260,6 @@ sak38.querySelector("img").src = saker[1].bilde;
 sak38.querySelector("h1").textContent = saker[1].tittel;
 sak38.querySelector("h4").textContent = saker[1].stikktittel;
 
-const sak0 = document.querySelector("#sak0");
-sak0.href = saker[0].url;
-sak0.querySelector("h1").textContent = saker[0].tittel;
-sak0.querySelector("h4").textContent = saker[0].stikktittel;
-
 const list1 = document.querySelector("#list1");
 for (let i = 0; i < saker.length; i++) {
   const li = document.createElement("a");

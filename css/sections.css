@@ -20,6 +20,8 @@ section {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
+  min-width: 175px;
+  text-align: center;
 }
 
 /*WORK CAROUSEL*/
@@ -82,14 +84,13 @@ section {
   .fri-one-col .fri-reportage .fri-title-element {
     width: 100%;
     margin-top: 0;
-    padding: 0 25px;
-    height: 100% !important;
+    padding: 20px !important;
+    height: auto !important;
   }
 
   .fri-one-col .fri-reportage .fri-img-element {
     width: 100% !important;
-    max-height: 500px;
-    height: 500px;
+    height: 350px !important;
   }
 
   .fri-three-col .fri-rorsla .fri-title-element h4 {
@@ -117,7 +118,4 @@ section {
   .toppsak .fri-title-element h1 {
     font-size: 2rem !important;
   }
-}
-
-@media screen and (max-width: 400px) {
 }
