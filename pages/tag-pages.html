@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/sections.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/css/elements.css" />
+    <link rel="stylesheet" href="/css/lists.css" />
+    <link rel="stylesheet" href="/css/swiper.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Frifagbevegelse | Forside</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navLogo">
+        <img src="/images/frifag-black.png" alt="" />
+      </div>
+      <div class="navLinks">
+        <ul>
+          <li><a class="navCurrent" href="forside.html">Nyheter</a></li>
+          <li>
+            <button class="navbtn" id="redaksjonsBtn">
+              <p>Redaksjoner</p>
+              <img src="/images/trekant.png" alt="" />
+            </button>
+          </li>
+          <li><a href="om-os.html">Nyhetsbrev</a></li>
+          <li><a href="kontakt.html">Podkast</a></li>
+          <li>
+            <button class="navbtn" id="merBtn">
+              <p>Mer</p>
+              <img src="/images/trekant.png" alt="" />
+            </button>
+          </li>
+        </ul>
+        <div>
+          <form class="navSearchDesktop" action="search">
+            <input type="text" placeholder="Søk" />
+            <button type="submit">
+              <img src="/images/search.png" alt="" />
+            </button>
+          </form>
+        </div>
+      </div>
+      <div>
+        <button class="navHamburger" id="hamburgerDropdown">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+    <section class="hamburgerElementContainer" id="navMerContainer">
+      <div class="hamburgerElementWrapper">
+        <div class="hamburgerElement">
+          <h4>AKTUELT</h4>
+          <ul>
+            <li><a href="https://frifagbevegelse.no/">Hjem</a></li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/tags/debatt-6.508.1150.4aec56a092"
+                >Debatt</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/tags/utenriks-6.508.2217.e3ef2fc70b"
+                >Utenriks</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/tags/kultur-6.508.1159.f6d2a08d11"
+                >Kultur</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/tags/folk-6.508.1153.5e90e29d89"
+                >Nytt om Folk</a
+              >
+            </li>
+          </ul>
+        </div>
+        <span></span>
+        <div class="hamburgerElement">
+          <h4>HØR MER FRA OSS</h4>
+          <ul>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/tags/podkast-6.508.1182.c9ea9aba3a"
+                >Podkast</a
+              >
+            </li>
+            <li><a href="https://frifag.make.as/">Nyhetsbrev</a></li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/frifagbevegelse-i-sosiale-medier-6.453.1119649.1.8fbc6915cb"
+                >Sosiale medier</a
+              >
+            </li>
+          </ul>
+        </div>
+        <span></span>
+        <div class="hamburgerElement">
+          <h4>VÅRE FELT</h4>
+          <ul>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/tags/lonnsoppgjoret-6.508.1311.eb3c2d1fc5"
+                >Lønnsoppgjøret</a
+              >
+            </li>
+            <li><a href="">Rettigheter på jobben</a></li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/tariff/tariffleksikon-6.237.1193.9693020313"
+                >Tariffleksikon</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/foreign-workers-6.541.ecac5f6b30"
+                >Foreign Workers</a
+              >
+            </li>
+          </ul>
+        </div>
+        <span></span>
+        <div class="hamburgerElement">
+          <h4>OM OSS</h4>
+          <ul>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/om-frifagbevegelse-6.453.1119551.1.aaf27862ba"
+                >Om FriFagbevegelse</a
+              >
+            </li>
+            <li>
+              <a href="https://ocast.com/no/frifagbevegelse/">Annonsering</a>
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/kontakt-frifagbevegelse-6.453.1119658.1.0ea158ec61"
+                >Kontakt oss</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="hamburgerElementContainer" id="navRedaksjonerContainer">
+      <div class="hamburgerElementWrapper">
+        <div class="hamburgerElement">
+          <ul>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/arbeidsmanden-6.211.1146.54a13fbfaf"
+                >Arbeidsmanden</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/i-skolen-6.215.1157.cbbeea7a84"
+                >I skolen</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/magasinet-styrke-6.638.3049.52f3d86a89"
+                >Magasinet Styrke</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/njfmagasinet-6.227.1176.2469681bb3"
+                >NJF-magasinet</a
+              >
+            </li>
+          </ul>
+        </div>
+        <span></span>
+        <div class="hamburgerElement">
+          <ul>
+            <li><a href="https://fontene.no/">Fontene</a></li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/nnnarbeideren-6.228.1177.875212f467"
+                >NNN-arbeideren</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/lo-aktuelt-6.219.1163.af6cdfc75a"
+                >LO-Aktuelt</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/ntlmagasinet-6.229.1179.e8c2b8cac6"
+                >NTL-magasinet</a
+              >
+            </li>
+          </ul>
+        </div>
+        <span></span>
+        <div class="hamburgerElement">
+          <ul>
+            <li><a href="https://hk-nytt.no/">HK-Nytt</a></li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/magasinet-for-fagorganiserte-6.222.1167.4e909464d4"
+                >Magasinet for fagorganiserte</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/nffmagasinet-6.226.1175.7717127fa1"
+                >NFF-magasinet</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/nettverk-6.225.1171.5c9d8e79f2"
+                >Nettverk</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section
+      class="hamburgerElementContainer hamburgerElementContainerMobile"
+      id="hamburgerContainerMob"
+    >
+      <div class="hamburgerElement">
+        <h4>AKTUELT</h4>
+        <ul>
+          <li><a href="https://frifagbevegelse.no/">Hjem</a></li>
+          <li>
+            <a
+              href="https://frifagbevegelse.no/tags/debatt-6.508.1150.4aec56a092"
+              >Debatt</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://frifagbevegelse.no/tags/utenriks-6.508.2217.e3ef2fc70b"
+              >Utenriks</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://frifagbevegelse.no/tags/kultur-6.508.1159.f6d2a08d11"
+              >Kultur</a
+            >
+          </li>
+          <li>
+            <a href="https://frifagbevegelse.no/tags/folk-6.508.1153.5e90e29d89"
+              >Nytt om Folk</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="hamburgerElement">
+        <h4>HØR MER FRA OSS</h4>
+        <ul>
+          <li>
+            <a
+              href="https://frifagbevegelse.no/tags/podkast-6.508.1182.c9ea9aba3a"
+              >Podkast</a
+            >
+          </li>
+          <li><a href="https://frifag.make.as/">Nyhetsbrev</a></li>
+          <li>
+            <a
+              href="https://frifagbevegelse.no/frifagbevegelse-i-sosiale-medier-6.453.1119649.1.8fbc6915cb"
+              >Sosiale medier</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="hamburgerElement">
+        <h4>VÅRE FELT</h4>
+        <ul>
+          <li>
+            <a
+              href="https://frifagbevegelse.no/tags/lonnsoppgjoret-6.508.1311.eb3c2d1fc5"
+              >Lønnsoppgjøret</a
+            >
+          </li>
+          <li><a href="">Rettigheter på jobben</a></li>
+          <li>
+            <a
+              href="https://frifagbevegelse.no/tariff/tariffleksikon-6.237.1193.9693020313"
+              >Tariffleksikon</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://frifagbevegelse.no/foreign-workers-6.541.ecac5f6b30"
+              >Foreign Workers</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="hamburgerElement">
+        <h4>OM OSS</h4>
+        <ul>
+          <li>
+            <a
+              href="https://frifagbevegelse.no/om-frifagbevegelse-6.453.1119551.1.aaf27862ba"
+              >Om FriFagbevegelse</a
+            >
+          </li>
+          <li>
+            <a href="https://ocast.com/no/frifagbevegelse/">Annonsering</a>
+          </li>
+          <li>
+            <a
+              href="https://frifagbevegelse.no/kontakt-frifagbevegelse-6.453.1119658.1.0ea158ec61"
+              >Kontakt oss</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="hamburgerElement dropdownElement">
+        <button id="redaksjonerMobBtn">
+          <h4>REDAKSJONER</h4>
+          <img src="/images/trekant.png" alt="" />
+        </button>
+        <div class="hamburgerRedaksjonerMob" id="redaksjonerMobElement">
+          <ul>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/arbeidsmanden-6.211.1146.54a13fbfaf"
+                >Arbeidsmanden</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/i-skolen-6.215.1157.cbbeea7a84"
+                >I skolen</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/magasinet-styrke-6.638.3049.52f3d86a89"
+                >Magasinet Styrke</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/njfmagasinet-6.227.1176.2469681bb3"
+                >NJF-magasinet</a
+              >
+            </li>
+            <li><a href="https://fontene.no/">Fontene</a></li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/nnnarbeideren-6.228.1177.875212f467"
+                >NNN-arbeideren</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/lo-aktuelt-6.219.1163.af6cdfc75a"
+                >LO-Aktuelt</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/ntlmagasinet-6.229.1179.e8c2b8cac6"
+                >NTL-magasinet</a
+              >
+            </li>
+            <li><a href="https://hk-nytt.no/">HK-Nytt</a></li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/magasinet-for-fagorganiserte-6.222.1167.4e909464d4"
+                >Magasinet for fagorganiserte</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/nffmagasinet-6.226.1175.7717127fa1"
+                >NFF-magasinet</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://frifagbevegelse.no/nettverk-6.225.1171.5c9d8e79f2"
+                >Nettverk</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="fri-tag-header">
+        <h1>Taggname</h1>
+      </section>
+      <section class="fri-one-col">
+        <a class="fri-news-element" id="sak1">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+      </section>
+      <section class="fri-two-col">
+        <a class="fri-news-element" id="sak2">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+        <a class="fri-news-element" id="sak3">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+      </section>
+      <section class="fri-three-col">
+        <a class="fri-news-element" id="sak4">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+        <a class="fri-news-element" id="sak5">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+        <a class="fri-news-element" id="sak6">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+      </section>
+      <section class="fri-one-col">
+        <a class="fri-news-element" id="sak7">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+      </section>
+      <section class="fri-two-col">
+        <a class="fri-news-element" id="sak8">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+        <a class="fri-news-element" id="sak9">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+      </section>
+      <section class="fri-three-col">
+        <a class="fri-news-element" id="sak10">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+        <a class="fri-news-element" id="sak11">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+        <a class="fri-news-element" id="sak12">
+          <img class="fri-img-element" src="/images/placeholder.png" alt="" />
+          <div class="fri-title-element">
+            <h4>Stikktittel</h4>
+            <h1>Tittel</h1>
+          </div>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <div class="footerLinks">
+        <div class="footerElement">
+          <div>
+            <h4>Kontakt redaksjonen</h4>
+            <a href="mailto:frifagbevegelse@lomedia.no"
+              >frifagbevegelse@lomedia.no</a
+            >
+          </div>
+          <div>
+            <h4>Redaktør</h4>
+            <p>Frode Rønning</p>
+          </div>
+          <div>
+            <h4>Ansvarlig redaktør</h4>
+            <p>Tor A. Godal</p>
+          </div>
+          <div>
+            <h4>Utgiver</h4>
+            <p>LO Media</p>
+          </div>
+        </div>
+        <div class="footerElement">
+          <div>
+            <h4>Tips</h4>
+            <p>
+              <a href="mailto:frifagbevegelse@lomedia.no"
+                >frifagbevegelse@lomedia.no</a
+              >
+            </p>
+          </div>
+          <div>
+            <h4>Nyhetsfeed</h4>
+            <p>
+              <a
+                href="https://frifagbevegelse.no/nyheter-6.295.164.0.11fb3b69c7"
+                >RSS-feed</a
+              >
+            </p>
+          </div>
+          <div>
+            <h4>Annonser</h4>
+            <a href="https://ocast.com/no/frifagbevegelse/" target="_blank"
+              >Bestill her</a
+            >
+          </div>
+          <div>
+            <h4>Sosiale medier</h4>
+            <div class="footerSome">
+              <a href="https://www.facebook.com/frifagbevegelse/"
+                ><img src="/images/facebook.png" alt=""
+              /></a>
+              <a href="https://www.instagram.com/frifagbevegelse/"
+                ><img src="/images/insta.png" alt=""
+              /></a>
+              <a href="https://www.tiktok.com/@frifagbevegelse"
+                ><img src="/images/tiktok.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footerElement">
+          <div>
+            <h4>Postadresse</h4>
+            <p>LO Media</p>
+            <p>Postboks 8964, Youngstorget</p>
+            <p>0028 Oslo</p>
+          </div>
+          <div>
+            <h4>Les også:</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://frifagbevegelse.no/etiske-retningslinjer-6.453.34268.892abb83d8"
+                  >· Etiske retningslinjer</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://frifagbevegelse.no/om-frifagbevegelseno/retningslinjer-for-bruk-av-kommentarfelt-for-lo-medias-publikasjoner-6.453.767471.f59698ee4f"
+                  >· Retningslinjer for kommentarfelt</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://frifagbevegelse.no/retningslinjer-for-bruk-av-kunstig-intelligens-ki-i-lo-media-6.453.1026733.1.6bf174dfb8"
+                  >· Bruk av kunstig intelligens</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://frifagbevegelse.no/cookie-informasjon-6.602.226a2c1724"
+                  >· Informasjon om cookies</a
+                >
+              </li>
+              <li>
+                <a href="https://personvern.lomedia.no/"
+                  >· LO Media og personvern</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <img src="/images/redaktoransvar.png" alt="" />
+        <div>
+          <p>FriFagbevegelse.no er medlem av Fagpressen og redigeres etter:</p>
+          <ul>
+            <li>
+              <a
+                href="https://www.redaktor.no/ressurser/etiske-og-juridiske-rammeverk/redaktorplakaten"
+                >· Redaktørplakaten</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://presse.no/pfu/etiske-regler/vaer-varsom-plakaten/"
+                >· Vær varsom-plakaten</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="/js/hamburgerHandler.js"></script>
+  <script src="/js/newstags.js"></script>
+</html>
