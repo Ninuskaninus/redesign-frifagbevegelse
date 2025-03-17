@@ -326,6 +326,9 @@ sak42.querySelector("img").src = saker[1].bilde;
 sak42.querySelector("h1").textContent = saker[1].tittel;
 sak42.querySelector("h4").textContent = saker[1].stikktittel;
 
+const sak43 = document.querySelector("#sak43");
+sak43.querySelector("h1").textContent = saker[2].tittel;
+
 const list1 = document.querySelector("#list1");
 for (let i = 0; i < saker.length; i++) {
   const li = document.createElement("a");
