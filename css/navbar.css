@@ -180,6 +180,7 @@ nav img {
   justify-content: center;
   align-items: center;
   gap: 5px;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 950px) {
