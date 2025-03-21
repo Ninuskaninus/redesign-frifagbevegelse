@@ -1,4 +1,5 @@
-const jobListUrl = "https://jobb.frifagbevegelse.no/wp-json/wp/v2/job-listings";
+const jobListUrl =
+  "https://jobb.frifagbevegelse.no/wp-json/wp/v2/job-listings?per_page=20";
 
 async function getJobList() {
   const response = await fetch(jobListUrl);
@@ -23,6 +24,8 @@ async function getJobList() {
       };
     })
   );
+
+  console.log("jobLists", jobLists);
 
   const workNumber = document.querySelector("#workNumber");
   workNumber.textContent = jobLists.length;
