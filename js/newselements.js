@@ -383,3 +383,19 @@ const swiper = new Swiper(".fri-nytt-om-folk-swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+const sisteTreSaker = saker.slice(-3);
+const nyttomfolkContainer = document.querySelector("#nyttomfolk-noswipe");
+for (let i = 0; i < sisteTreSaker.length; i++) {
+  const nyttOmFolk = document.createElement("a");
+  nyttOmFolk.classList.add("fri-news-element");
+  nyttOmFolk.href = sisteTreSaker[i].url;
+  nyttOmFolk.innerHTML = `
+    <img class="fri-img-element" src="${sisteTreSaker[i].bilde}" alt="" />
+    <div class="fri-text-element">
+        <h4>${sisteTreSaker[i].stikktittel}</h4>
+        <h1>${sisteTreSaker[i].tittel}</h1>
+    </div>
+    `;
+  nyttomfolkContainer.appendChild(nyttOmFolk);
+}
