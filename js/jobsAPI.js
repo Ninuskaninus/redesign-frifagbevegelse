@@ -25,8 +25,6 @@ async function getJobList() {
     })
   );
 
-  console.log("jobLists", jobLists);
-
   const workNumber = document.querySelector("#workNumber");
   workNumber.textContent = jobLists.length;
 

@@ -120,3 +120,32 @@
   min-width: 0.5px;
   background-color: var(--orange);
 }
+
+.list-container .fri-text-element {
+  padding: 10px;
+}
+
+.list-container .fri-text-element h1 {
+  font-size: 1.4rem;
+}
+
+.list-container .fri-text-element h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.fri-carousel-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.fri-carousel-btn a {
+  background-color: var(--white);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
