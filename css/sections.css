@@ -57,6 +57,16 @@ section {
   padding-bottom: 10px;
 }
 
+/*SEKSJONER*/
+
+.fri-section-top {
+  display: grid;
+  grid-template-columns: 65% 33%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 650px) {
   .fri-one-col,
   .fri-three-col {
@@ -125,5 +135,11 @@ section {
   }
   .toppsak .fri-title-element h1 {
     font-size: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fri-section-top {
+    grid-template-columns: 1fr;
   }
 }
