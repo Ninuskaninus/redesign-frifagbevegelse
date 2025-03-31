@@ -349,30 +349,6 @@ small {
 
 @media screen and (max-width: 768px) {
   .fri-blad-continer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    align-items: center;
-  }
-
-  .fri-blad-continer img {
-    height: 250px;
-    width: auto;
-    margin-bottom: 0;
-  }
-
-  .fri-blad-continer h5 {
-    margin: 0 10px 0 10px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .fri-blad-continer img {
-    height: 150px;
-    width: auto;
-    margin-bottom: 0;
-  }
-  .fri-blad-continer h5 {
-    font-size: 1rem;
+    display: none;
   }
 }
