@@ -325,3 +325,54 @@ small {
   width: 100%;
   height: auto;
 }
+
+/*TOPPSAK SEKSJONER*/
+.fri-blad-continer {
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.fri-blad-continer h5 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0 20px 20px 20px;
+}
+
+.fri-blad-continer img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .fri-blad-continer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .fri-blad-continer img {
+    height: 250px;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .fri-blad-continer h5 {
+    margin: 0 10px 0 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .fri-blad-continer img {
+    height: 150px;
+    width: auto;
+    margin-bottom: 0;
+  }
+  .fri-blad-continer h5 {
+    font-size: 1rem;
+  }
+}

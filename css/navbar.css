@@ -183,6 +183,10 @@ nav img {
   font-size: 1rem;
 }
 
+.frifag-logo-small {
+  display: none;
+}
+
 @media screen and (max-width: 950px) {
   nav {
     flex-direction: column;
@@ -195,6 +199,16 @@ nav img {
 }
 
 @media screen and (max-width: 660px) {
+  .frifag-logo-small {
+    display: block;
+    width: 100%;
+    max-width: 50px;
+  }
+
+  .frifag-logo-big {
+    display: none;
+  }
+
   nav ul {
     display: none;
   }
@@ -213,5 +227,32 @@ nav img {
 
   nav {
     flex-direction: row;
+    align-items: center;
   }
+
+  .navLogoPublication span {
+    display: none;
+  }
+
+  .navLogoPublication {
+    margin-bottom: 0 !important;
+  }
+}
+
+.navLogoPublication {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: #222323;
+}
+
+.navLogoPublication img {
+  width: 230px;
+}
+
+.navLogoPublication span {
+  height: 1.5rem;
+  width: 1px;
+  background-color: var(--black);
 }
