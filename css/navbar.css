@@ -237,6 +237,10 @@ nav img {
   .navLogoPublication {
     margin-bottom: 0 !important;
   }
+
+  .navLogoPublication h1 {
+    margin-top: 0px;
+  }
 }
 
 .navLogoPublication {
