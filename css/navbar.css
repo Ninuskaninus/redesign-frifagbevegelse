@@ -247,6 +247,10 @@ nav img {
   color: #222323;
 }
 
+.navLogoPublication h1 {
+  margin-top: 4px;
+}
+
 .navLogoPublication img {
   width: 230px;
 }
